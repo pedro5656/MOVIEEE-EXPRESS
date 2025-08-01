@@ -1,0 +1,36 @@
+{
+  "name": "movieproject",
+  "version": "1.0.0",
+  "description": "Movie project",
+  "keywords": [
+    "movie",
+    "app"
+  ],
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "dotenv -e .env -- nodemon index.js",
+    "start": "node --watch index.js"
+  },
+  "devDependencies": {
+    "dotenv-cli": "^8.0.0",
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cloudinary": "^2.6.1",
+    "connect-flash": "^0.1.1",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "express-session": "^1.18.2",
+    "method-override": "^3.0.0",
+    "mongoose": "^8.15.1",
+    "multer": "^2.0.0",
+    "nodemailer": "^7.0.5",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0"
+  }
+}
